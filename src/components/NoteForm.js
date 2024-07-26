@@ -54,7 +54,7 @@ const NoteForm = ({ note, onSave }) => {
         ></textarea>
       </div>
       <button type="submit" className="bg-primary text-white p-3 rounded-lg hover:bg-secondary transition duration-300 w-full">
-        {note ? 'Update Note' : 'Add Note'} // Change button text based on whether editing or adding
+        {note ? 'Update Note' : 'Add Note'} 
       </button>
     </form>
   );
